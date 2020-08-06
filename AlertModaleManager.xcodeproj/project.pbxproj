@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		214A7D3324DC6C960097F27F /* AlertModaleManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214A7D2924DC6C960097F27F /* AlertModaleManager.framework */; };
+		214A7D3824DC6C960097F27F /* AlertModaleManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A7D3724DC6C960097F27F /* AlertModaleManagerTests.swift */; };
+		214A7D3A24DC6C960097F27F /* AlertModaleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 214A7D2C24DC6C960097F27F /* AlertModaleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		214A7D4A24DC710D0097F27F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A7D4924DC710D0097F27F /* AppDelegate.swift */; };
+		214A7D4C24DC710D0097F27F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A7D4B24DC710D0097F27F /* SceneDelegate.swift */; };
+		214A7D4E24DC710D0097F27F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A7D4D24DC710D0097F27F /* ViewController.swift */; };
+		214A7D5124DC710D0097F27F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214A7D4F24DC710D0097F27F /* Main.storyboard */; };
+		214A7D5324DC71100097F27F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214A7D5224DC71100097F27F /* Assets.xcassets */; };
+		214A7D5624DC71100097F27F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214A7D5424DC71100097F27F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		214A7D3424DC6C960097F27F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 214A7D2024DC6C960097F27F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 214A7D2824DC6C960097F27F;
+			remoteInfo = AlertModaleManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		214A7D2924DC6C960097F27F /* AlertModaleManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlertModaleManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		214A7D2C24DC6C960097F27F /* AlertModaleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertModaleManager.h; sourceTree = "<group>"; };
+		214A7D2D24DC6C960097F27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214A7D3224DC6C960097F27F /* AlertModaleManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertModaleManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		214A7D3724DC6C960097F27F /* AlertModaleManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModaleManagerTests.swift; sourceTree = "<group>"; };
+		214A7D3924DC6C960097F27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214A7D4724DC710D0097F27F /* AlertModaleManagerExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertModaleManagerExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		214A7D4924DC710D0097F27F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		214A7D4B24DC710D0097F27F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		214A7D4D24DC710D0097F27F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		214A7D5024DC710D0097F27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		214A7D5224DC71100097F27F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		214A7D5524DC71100097F27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		214A7D5724DC71100097F27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		214A7D2624DC6C960097F27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214A7D2F24DC6C960097F27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214A7D3324DC6C960097F27F /* AlertModaleManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214A7D4424DC710D0097F27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		214A7D1F24DC6C960097F27F = {
+			isa = PBXGroup;
+			children = (
+				214A7D2B24DC6C960097F27F /* AlertModaleManager */,
+				214A7D3624DC6C960097F27F /* AlertModaleManagerTests */,
+				214A7D4824DC710D0097F27F /* AlertModaleManagerExamples */,
+				214A7D2A24DC6C960097F27F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		214A7D2A24DC6C960097F27F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				214A7D2924DC6C960097F27F /* AlertModaleManager.framework */,
+				214A7D3224DC6C960097F27F /* AlertModaleManagerTests.xctest */,
+				214A7D4724DC710D0097F27F /* AlertModaleManagerExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		214A7D2B24DC6C960097F27F /* AlertModaleManager */ = {
+			isa = PBXGroup;
+			children = (
+				214A7D2C24DC6C960097F27F /* AlertModaleManager.h */,
+				214A7D2D24DC6C960097F27F /* Info.plist */,
+			);
+			path = AlertModaleManager;
+			sourceTree = "<group>";
+		};
+		214A7D3624DC6C960097F27F /* AlertModaleManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				214A7D3724DC6C960097F27F /* AlertModaleManagerTests.swift */,
+				214A7D3924DC6C960097F27F /* Info.plist */,
+			);
+			path = AlertModaleManagerTests;
+			sourceTree = "<group>";
+		};
+		214A7D4824DC710D0097F27F /* AlertModaleManagerExamples */ = {
+			isa = PBXGroup;
+			children = (
+				214A7D4924DC710D0097F27F /* AppDelegate.swift */,
+				214A7D4B24DC710D0097F27F /* SceneDelegate.swift */,
+				214A7D4D24DC710D0097F27F /* ViewController.swift */,
+				214A7D4F24DC710D0097F27F /* Main.storyboard */,
+				214A7D5224DC71100097F27F /* Assets.xcassets */,
+				214A7D5424DC71100097F27F /* LaunchScreen.storyboard */,
+				214A7D5724DC71100097F27F /* Info.plist */,
+			);
+			path = AlertModaleManagerExamples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		214A7D2424DC6C960097F27F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214A7D3A24DC6C960097F27F /* AlertModaleManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		214A7D2824DC6C960097F27F /* AlertModaleManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214A7D3D24DC6C960097F27F /* Build configuration list for PBXNativeTarget "AlertModaleManager" */;
+			buildPhases = (
+				214A7D2424DC6C960097F27F /* Headers */,
+				214A7D2524DC6C960097F27F /* Sources */,
+				214A7D2624DC6C960097F27F /* Frameworks */,
+				214A7D2724DC6C960097F27F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertModaleManager;
+			productName = AlertModaleManager;
+			productReference = 214A7D2924DC6C960097F27F /* AlertModaleManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		214A7D3124DC6C960097F27F /* AlertModaleManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214A7D4024DC6C960097F27F /* Build configuration list for PBXNativeTarget "AlertModaleManagerTests" */;
+			buildPhases = (
+				214A7D2E24DC6C960097F27F /* Sources */,
+				214A7D2F24DC6C960097F27F /* Frameworks */,
+				214A7D3024DC6C960097F27F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				214A7D3524DC6C960097F27F /* PBXTargetDependency */,
+			);
+			name = AlertModaleManagerTests;
+			productName = AlertModaleManagerTests;
+			productReference = 214A7D3224DC6C960097F27F /* AlertModaleManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		214A7D4624DC710D0097F27F /* AlertModaleManagerExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214A7D5824DC71100097F27F /* Build configuration list for PBXNativeTarget "AlertModaleManagerExamples" */;
+			buildPhases = (
+				214A7D4324DC710D0097F27F /* Sources */,
+				214A7D4424DC710D0097F27F /* Frameworks */,
+				214A7D4524DC710D0097F27F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertModaleManagerExamples;
+			productName = AlertModaleManagerExamples;
+			productReference = 214A7D4724DC710D0097F27F /* AlertModaleManagerExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		214A7D2024DC6C960097F27F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Thibault;
+				TargetAttributes = {
+					214A7D2824DC6C960097F27F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					214A7D3124DC6C960097F27F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					214A7D4624DC710D0097F27F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 214A7D2324DC6C960097F27F /* Build configuration list for PBXProject "AlertModaleManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 214A7D1F24DC6C960097F27F;
+			productRefGroup = 214A7D2A24DC6C960097F27F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				214A7D2824DC6C960097F27F /* AlertModaleManager */,
+				214A7D3124DC6C960097F27F /* AlertModaleManagerTests */,
+				214A7D4624DC710D0097F27F /* AlertModaleManagerExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		214A7D2724DC6C960097F27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214A7D3024DC6C960097F27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214A7D4524DC710D0097F27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214A7D5624DC71100097F27F /* LaunchScreen.storyboard in Resources */,
+				214A7D5324DC71100097F27F /* Assets.xcassets in Resources */,
+				214A7D5124DC710D0097F27F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		214A7D2524DC6C960097F27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214A7D2E24DC6C960097F27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214A7D3824DC6C960097F27F /* AlertModaleManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214A7D4324DC710D0097F27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214A7D4E24DC710D0097F27F /* ViewController.swift in Sources */,
+				214A7D4A24DC710D0097F27F /* AppDelegate.swift in Sources */,
+				214A7D4C24DC710D0097F27F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		214A7D3524DC6C960097F27F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 214A7D2824DC6C960097F27F /* AlertModaleManager */;
+			targetProxy = 214A7D3424DC6C960097F27F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		214A7D4F24DC710D0097F27F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214A7D5024DC710D0097F27F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		214A7D5424DC71100097F27F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214A7D5524DC71100097F27F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		214A7D3B24DC6C960097F27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		214A7D3C24DC6C960097F27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		214A7D3E24DC6C960097F27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WC7D723LR8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AlertModaleManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThibaultDeprez.AlertModaleManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		214A7D3F24DC6C960097F27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WC7D723LR8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AlertModaleManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThibaultDeprez.AlertModaleManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		214A7D4124DC6C960097F27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WC7D723LR8;
+				INFOPLIST_FILE = AlertModaleManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThibaultDeprez.AlertModaleManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		214A7D4224DC6C960097F27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WC7D723LR8;
+				INFOPLIST_FILE = AlertModaleManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThibaultDeprez.AlertModaleManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		214A7D5924DC71100097F27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WC7D723LR8;
+				INFOPLIST_FILE = AlertModaleManagerExamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThibaultDeprez.AlertModaleManagerExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		214A7D5A24DC71100097F27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WC7D723LR8;
+				INFOPLIST_FILE = AlertModaleManagerExamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ThibaultDeprez.AlertModaleManagerExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		214A7D2324DC6C960097F27F /* Build configuration list for PBXProject "AlertModaleManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214A7D3B24DC6C960097F27F /* Debug */,
+				214A7D3C24DC6C960097F27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214A7D3D24DC6C960097F27F /* Build configuration list for PBXNativeTarget "AlertModaleManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214A7D3E24DC6C960097F27F /* Debug */,
+				214A7D3F24DC6C960097F27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214A7D4024DC6C960097F27F /* Build configuration list for PBXNativeTarget "AlertModaleManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214A7D4124DC6C960097F27F /* Debug */,
+				214A7D4224DC6C960097F27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214A7D5824DC71100097F27F /* Build configuration list for PBXNativeTarget "AlertModaleManagerExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214A7D5924DC71100097F27F /* Debug */,
+				214A7D5A24DC71100097F27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 214A7D2024DC6C960097F27F /* Project object */;
+}
