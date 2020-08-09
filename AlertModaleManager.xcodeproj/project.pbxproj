@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210651D424DCC09A00CA87BC /* UIAlertBaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210651D324DCC09A00CA87BC /* UIAlertBaseProtocol.swift */; };
 		214A7D3324DC6C960097F27F /* AlertModaleManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214A7D2924DC6C960097F27F /* AlertModaleManager.framework */; };
 		214A7D3824DC6C960097F27F /* AlertModaleManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A7D3724DC6C960097F27F /* AlertModaleManagerTests.swift */; };
 		214A7D3A24DC6C960097F27F /* AlertModaleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 214A7D2C24DC6C960097F27F /* AlertModaleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,6 +17,12 @@
 		214A7D5124DC710D0097F27F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214A7D4F24DC710D0097F27F /* Main.storyboard */; };
 		214A7D5324DC71100097F27F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214A7D5224DC71100097F27F /* Assets.xcassets */; };
 		214A7D5624DC71100097F27F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214A7D5424DC71100097F27F /* LaunchScreen.storyboard */; };
+		214A7D5C24DC790A0097F27F /* AlertModaleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A7D5B24DC790A0097F27F /* AlertModaleManager.swift */; };
+		214A7D5E24DC799F0097F27F /* UIAlertBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A7D5D24DC799F0097F27F /* UIAlertBaseVC.swift */; };
+		214A7D6024DC7D7C0097F27F /* Alert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214A7D5F24DC7D7C0097F27F /* Alert.storyboard */; };
+		214A7D6224DC83160097F27F /* AlertModaleManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214A7D2924DC6C960097F27F /* AlertModaleManager.framework */; };
+		214A7D6324DC83160097F27F /* AlertModaleManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 214A7D2924DC6C960097F27F /* AlertModaleManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		214A7D6824DC847A0097F27F /* AlertExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A7D6724DC847A0097F27F /* AlertExampleVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +33,31 @@
 			remoteGlobalIDString = 214A7D2824DC6C960097F27F;
 			remoteInfo = AlertModaleManager;
 		};
+		214A7D6424DC83160097F27F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 214A7D2024DC6C960097F27F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 214A7D2824DC6C960097F27F;
+			remoteInfo = AlertModaleManager;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		214A7D6624DC83170097F27F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				214A7D6324DC83160097F27F /* AlertModaleManager.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		210651D324DCC09A00CA87BC /* UIAlertBaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertBaseProtocol.swift; sourceTree = "<group>"; };
 		214A7D2924DC6C960097F27F /* AlertModaleManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlertModaleManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		214A7D2C24DC6C960097F27F /* AlertModaleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertModaleManager.h; sourceTree = "<group>"; };
 		214A7D2D24DC6C960097F27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +72,10 @@
 		214A7D5224DC71100097F27F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		214A7D5524DC71100097F27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		214A7D5724DC71100097F27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214A7D5B24DC790A0097F27F /* AlertModaleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModaleManager.swift; sourceTree = "<group>"; };
+		214A7D5D24DC799F0097F27F /* UIAlertBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertBaseVC.swift; sourceTree = "<group>"; };
+		214A7D5F24DC7D7C0097F27F /* Alert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alert.storyboard; sourceTree = "<group>"; };
+		214A7D6724DC847A0097F27F /* AlertExampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExampleVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214A7D6224DC83160097F27F /* AlertModaleManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +112,7 @@
 				214A7D3624DC6C960097F27F /* AlertModaleManagerTests */,
 				214A7D4824DC710D0097F27F /* AlertModaleManagerExamples */,
 				214A7D2A24DC6C960097F27F /* Products */,
+				214A7D6124DC83160097F27F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +131,9 @@
 			children = (
 				214A7D2C24DC6C960097F27F /* AlertModaleManager.h */,
 				214A7D2D24DC6C960097F27F /* Info.plist */,
+				214A7D5B24DC790A0097F27F /* AlertModaleManager.swift */,
+				214A7D5D24DC799F0097F27F /* UIAlertBaseVC.swift */,
+				210651D324DCC09A00CA87BC /* UIAlertBaseProtocol.swift */,
 			);
 			path = AlertModaleManager;
 			sourceTree = "<group>";
@@ -119,8 +157,17 @@
 				214A7D5224DC71100097F27F /* Assets.xcassets */,
 				214A7D5424DC71100097F27F /* LaunchScreen.storyboard */,
 				214A7D5724DC71100097F27F /* Info.plist */,
+				214A7D5F24DC7D7C0097F27F /* Alert.storyboard */,
+				214A7D6724DC847A0097F27F /* AlertExampleVC.swift */,
 			);
 			path = AlertModaleManagerExamples;
+			sourceTree = "<group>";
+		};
+		214A7D6124DC83160097F27F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,10 +227,12 @@
 				214A7D4324DC710D0097F27F /* Sources */,
 				214A7D4424DC710D0097F27F /* Frameworks */,
 				214A7D4524DC710D0097F27F /* Resources */,
+				214A7D6624DC83170097F27F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				214A7D6524DC83160097F27F /* PBXTargetDependency */,
 			);
 			name = AlertModaleManagerExamples;
 			productName = AlertModaleManagerExamples;
@@ -202,6 +251,7 @@
 				TargetAttributes = {
 					214A7D2824DC6C960097F27F = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 					214A7D3124DC6C960097F27F = {
 						CreatedOnToolsVersion = 11.6;
@@ -253,6 +303,7 @@
 				214A7D5624DC71100097F27F /* LaunchScreen.storyboard in Resources */,
 				214A7D5324DC71100097F27F /* Assets.xcassets in Resources */,
 				214A7D5124DC710D0097F27F /* Main.storyboard in Resources */,
+				214A7D6024DC7D7C0097F27F /* Alert.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +314,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210651D424DCC09A00CA87BC /* UIAlertBaseProtocol.swift in Sources */,
+				214A7D5E24DC799F0097F27F /* UIAlertBaseVC.swift in Sources */,
+				214A7D5C24DC790A0097F27F /* AlertModaleManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214A7D6824DC847A0097F27F /* AlertExampleVC.swift in Sources */,
 				214A7D4E24DC710D0097F27F /* ViewController.swift in Sources */,
 				214A7D4A24DC710D0097F27F /* AppDelegate.swift in Sources */,
 				214A7D4C24DC710D0097F27F /* SceneDelegate.swift in Sources */,
@@ -291,6 +346,11 @@
 			isa = PBXTargetDependency;
 			target = 214A7D2824DC6C960097F27F /* AlertModaleManager */;
 			targetProxy = 214A7D3424DC6C960097F27F /* PBXContainerItemProxy */;
+		};
+		214A7D6524DC83160097F27F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 214A7D2824DC6C960097F27F /* AlertModaleManager */;
+			targetProxy = 214A7D6424DC83160097F27F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -437,6 +497,7 @@
 		214A7D3E24DC6C960097F27F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = WC7D723LR8;
@@ -454,6 +515,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ThibaultDeprez.AlertModaleManager;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +524,7 @@
 		214A7D3F24DC6C960097F27F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = WC7D723LR8;
@@ -487,6 +550,7 @@
 		214A7D4124DC6C960097F27F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WC7D723LR8;
 				INFOPLIST_FILE = AlertModaleManagerTests/Info.plist;
@@ -505,6 +569,7 @@
 		214A7D4224DC6C960097F27F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WC7D723LR8;
 				INFOPLIST_FILE = AlertModaleManagerTests/Info.plist;
