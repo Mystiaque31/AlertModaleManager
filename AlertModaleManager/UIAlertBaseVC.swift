@@ -9,6 +9,8 @@
 import UIKit
 
 open class UIAlertBaseVC: UIViewController {
+    
+    public var userInfo : [AnyHashable : Any]?
 
     open override func viewDidLoad() {
         super.viewDidLoad()
